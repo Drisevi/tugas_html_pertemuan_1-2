@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terkini</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f44336;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #f44336;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="berita.html">Berita</a>
+    </nav>
+
+    <!-- Carousel Section -->
+    <section>
+        <h1>Berita Terkini</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pineapple.jpg" class="d-block w-100" alt="pemandangan 2" style="max-height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-inner">
+                    <img src="pineapple2.jpg" class="d-block w-100" alt="kocheng" style="max-height: 400px; object-fit: cover;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- News Content Section -->
+    <section>
+        <h2>Judul: Nanas, Buah yang Menggoda</h2>
+        <p>
+            Nanas adalah tanaman asli Amerika Selatan, yang telah dibudidayakan selama berabad-abad. Pengenalan tanaman nanas ke Eropa pada abad ke-17 menjadikannya sebagai ikon budaya yang signifikan dalam hal kemewahan. Sejak tahun 1820-an, nanas telah ditanam secara komersial di rumah kaca dan banyak perkebunan tropis.
+        </p>
+        <p>
+            Nanas tumbuh sebagai semak kecil; bunga individu dari tanaman yang tidak terpolinasi menyatu untuk membentuk buah jamak. Tanaman biasanya diperbanyak dari offset yang dihasilkan di atas buah atau dari tunas samping, dan biasanya matang dalam waktu satu tahun.
+        </p>
+        <p>
+            Nanas merupakan tanaman perenial herba, yang tumbuh antara 1.0 hingga 1.5 m (3 ft 3 in hingga 4 ft 11 in) tingginya rata-rata, meskipun terkadang bisa lebih tinggi. Tanaman ini memiliki batang pendek yang kekar dengan daun yang keras dan berlapis lilin. Ketika menghasilkan buah, biasanya menghasilkan hingga 200 bunga, meskipun beberapa kultivar buah besar dapat melebihi ini.
+        </p>
+        <p>
+            Setelah bunga, buah-buah individu dari bunga bergabung untuk menciptakan buah jamak. Setelah buah pertama dihasilkan, tunas samping (disebut 'suckers' oleh para petani komersial) dihasilkan di axil daun batang utama. Tunas ini dapat diambil untuk perbanyakan, atau dibiarkan untuk menghasilkan buah tambahan pada tanaman asli.
+        </p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Link Rekomendasi</h3>
+        <ul>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://my.upj.ac.id/gate/login">UPJ</a></li>
+        </ul>
+        <p>&copy; 2024 Simple Website.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
