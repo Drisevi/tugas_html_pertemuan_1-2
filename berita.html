@@ -3,128 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita Terkini</title>
+    <title>Detail Berita - Nanas, Buah yang Menggoda</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            color: #333;
         }
 
         nav {
             background-color: #333;
             padding: 10px;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         nav a {
-            color: white;
+            color: #fff;
             text-decoration: none;
             margin: 0 15px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            background-color: #f44336;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
         }
 
         section {
             padding: 20px;
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section img {
-            float: left;
-            margin: 20px;
-            width: 200px;
-            height: 200px;
-            border-radius: 10px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        .clear {
-            clear: both;
         }
 
         footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
             background-color: #333;
             color: white;
-            text-align: center;
-            padding: 20px;
         }
 
-        footer ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        footer ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        footer ul li a {
-            color: white;
+        footer a {
+            color: #f44336;
             text-decoration: none;
-        }
-
-        footer ul li a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-
-    <!-- Navigation Bar -->
+    <!-- Navigation Menu -->
     <nav>
-        | <a href="home.html">Home</a> |
-        | <a href="about.html">About</a> |
-        | <a href="berita.html">Berita</a> |
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="berita.html">Berita</a>
+        <a href="beritadetail.html">Berita Detail</a> <!-- Menu link for detail -->
     </nav>
 
-    <!-- Main Content Section -->
+    <!-- News Content Section -->
     <section>
-        <h1>Berita Terkini</h1>
-
-        <!-- Article 1 -->
+        <h1>Nanas, Buah yang Menggoda</h1>
         <p>
-            <img src="pineapple.jpg" alt="pineapple">
-            <h2>Judul 1</h2>
-            The pineapple is indigenous to South America, where it has been cultivated for many centuries. The introduction of the pineapple plant to Europe in the 17th century made it a significant cultural icon of luxury. Pineapples grow as a small shrub; the individual flowers of the unpollinated plant fuse to form a multiple fruit.
+            Nanas adalah tanaman asli Amerika Selatan, yang telah dibudidayakan selama berabad-abad. Pengenalan tanaman nanas ke Eropa pada abad ke-17 menjadikannya sebagai ikon budaya yang signifikan dalam hal kemewahan. Sejak tahun 1820-an, nanas telah ditanam secara komersial di rumah kaca dan banyak perkebunan tropis.
         </p>
-        <div class="clear"></div>
-        <a href="selengkapnya.html">Selengkapnya</a>
-
-        <!-- Article 2 -->
         <p>
-            <img src="pineapple2.jpg" alt="pineapple2">
-            <h2>Judul 2</h2>
-            The pineapple is a herbaceous perennial, which grows to 1.0 to 1.5 m tall on average. The plant has a short, stocky stem with tough, waxy leaves. When creating its fruit, it usually produces up to 200 flowers.
+            Nanas tumbuh sebagai semak kecil; bunga individu dari tanaman yang tidak terpolinasi menyatu untuk membentuk buah jamak. Tanaman biasanya diperbanyak dari offset yang dihasilkan di atas buah atau dari tunas samping, dan biasanya matang dalam waktu satu tahun.
         </p>
-        <div class="clear"></div>
-        <a href="selengkapnya.html">Selengkapnya</a>
-
+        <p>
+            Nanas merupakan tanaman perenial herba, yang tumbuh antara 1.0 hingga 1.5 m (3 ft 3 in hingga 4 ft 11 in) tingginya rata-rata, meskipun terkadang bisa lebih tinggi. Tanaman ini memiliki batang pendek yang kekar dengan daun yang keras dan berlapis lilin. Ketika menghasilkan buah, biasanya menghasilkan hingga 200 bunga, meskipun beberapa kultivar buah besar dapat melebihi ini.
+        </p>
+        <p>
+            Setelah bunga, buah-buah individu dari bunga bergabung untuk menciptakan buah jamak. Setelah buah pertama dihasilkan, tunas samping (disebut 'suckers' oleh para petani komersial) dihasilkan di axil daun batang utama. Tunas ini dapat diambil untuk perbanyakan, atau dibiarkan untuk menghasilkan buah tambahan pada tanaman asli.
+        </p>
     </section>
 
     <!-- Footer Section -->
     <footer>
         <h3>Link Rekomendasi</h3>
         <ul>
-            <li><a href="https://google.com" target="_blank">Google</a></li>
-            <li><a href="https://upj.ac.id" target="_blank">UPJ</a></li>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://my.upj.ac.id/gate/login">UPJ</a></li>
         </ul>
+        <p>&copy; 2024 Simple Website.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
